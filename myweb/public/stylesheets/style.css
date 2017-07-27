@@ -1,12 +1,35 @@
-body {
-  padding: 50px;
-  font: 30px "Lucida Grande", Helvetica, Arial, sans-serif;
-  color: blue
+*{
+  box-sizing: border-box
+  font-family: 30px PingFangTC-regular, 微軟正黑體, Arial, sans-serif;
 }
-
-h1{
-  color: red
+html, body, h1, h2, h3, h4, h5, h6, p, article, section, nav, div, span{
+    margin: 0;
+    padding: 0;
+}
+.container, 
+.container-fluid {
+    margin: 0 auto;
+    overflow:auto;
+    border: 1px solid;
+}
+.container{
+  width:750px;
   
 }
+.container-fluid{
+  width:750px;
+}
+header{
+color: purple;
+font-size: 60px;
+font-weight: bold;
+background-image: url("https://unsplash.it/200/300?random")
 
+
+
+}
+
+
+footer{
+  color: pink
 }
