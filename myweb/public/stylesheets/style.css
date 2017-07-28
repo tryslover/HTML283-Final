@@ -1,35 +1,85 @@
 *{
   box-sizing: border-box
-  font-family: 30px PingFangTC-regular, 微軟正黑體, Arial, sans-serif;
+  font-family: PingFangTC-regular, 微軟正黑體, Arial, sans-serif;
 }
-html, body, h1, h2, h3, h4, h5, h6, p, article, section, nav, div, span{
+html, body, h1, h2, h3, h4, h5, h6, p, article, section, nav, div, span, profile, author, footer, header, right, left{
     margin: 0;
     padding: 0;
 }
-.container, 
-.container-fluid {
+header, footer, .left, .right, footer, section, .profile, content, .author{
+  border: 1px solid
+}
+.container, .container-fluid {
     margin: 0 auto;
-    overflow:auto;
-    border: 1px solid;
+    padding: 10px;
+    overflow: auto;
+
 }
 .container{
-  width:750px;
+    width: 900px
   
 }
 .container-fluid{
-  width:750px;
+  width: 100%
 }
 header{
+  background-image: url(https://unsplash.it/1000/200);
+  background-size: cover;
+}
+h1{
 color: purple;
-font-size: 60px;
+font-size: 100px;
 font-weight: bold;
-background-image: url("https://unsplash.it/200/300?random")
+padding-left: 5px;
+}
+p1{
+  color: purple;
+  font-size: 20px;
+  font-wight:bold;
+}
+.left{
+  float:left;
+  width: calc(100%/ 10* 4);
+  padding: 10px;
 
+}
+.left img {
+  width: 100%;
+}
+.right{
+  float:right;
+  width: calc(100%/ 10* 4);
+  padding: 10px;
+}
+.right img{
+  width: 100%
+}
 
+.content{
+  clear: both;
+  overflow: auto;
 
+}
+.author{
+  float: right;
+  width: calc(100%/ 10 *7);
+  line-height: 2 ;
+
+  
 }
 
 
+.profile img{
+  border-radius: 25%;
+  height: 172px;
+
+}
 footer{
-  color: pink
+  background: purple; 
+  color: yellow;
+}
+.box{
+  width: calc(100%/ 3);
+  float: left;
+
 }
