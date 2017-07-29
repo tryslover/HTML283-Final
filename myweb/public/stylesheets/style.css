@@ -2,7 +2,7 @@
   box-sizing: border-box
   font-family: PingFangTC-regular, 微軟正黑體, Arial, sans-serif;
 }
-html, body, h1, h2, h3, h4, h5, h6, p, article, section, nav, div, span, profile, author, footer, header, right, left{
+html, body, h1, h2, h3, h4, h5, h6, p, article, section, nav, div, span, profile, author, footer, header, right, left, content{
     margin: 0;
     padding: 0;
 }
@@ -56,7 +56,6 @@ p1{
 }
 
 .content{
-  clear: both;
   overflow: auto;
 
 }
@@ -75,7 +74,7 @@ p1{
 
 }
 footer{
-  background: purple; 
+  background-color: purple; 
   color: yellow;
 }
 .box{
